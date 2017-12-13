@@ -1,1 +1,14 @@
 ceci est un fichier de test
+
+//init gitHub
+git init
+
+//config identifiant si non fait dans gitHub Desktop
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+//ajout fichier au prochain commit (creation de version) :
+git add .
+
+//Créer une version
+git commit -m "Message"
