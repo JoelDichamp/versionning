@@ -17,3 +17,14 @@ git commit -m "Message"
 
 //voir la liste des versions
 git log
+git log --oneline
+
+//regarder un commit précédent
+git checkout #cle-commit -> retour dans le passé sur ce commit
+git checkout #cle-commit fichier.html-> récupère le fichier tel qu'il était à ce commit
+
+//Défaire un commit
+git revert #cle-commit
+
+//Branche
+git branch "branchname"
