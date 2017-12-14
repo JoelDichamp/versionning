@@ -28,3 +28,6 @@ git revert #cle-commit
 
 //Branche
 git branch "branchname"
+
+//Fusion
+git merge branchname (fusionnne sur la branche actuelle)
