@@ -30,5 +30,9 @@ git revert #cle-commit
 //Branche
 git branch "branchname"
 
+//add distant
+git remote add origin https://...
+git push origin master
+
 //Fusion
 git merge branchname (fusionnne sur la branche actuelle)
